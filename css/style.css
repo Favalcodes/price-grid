@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: Karla;
+    src: url(https://fonts.google.com/specimen/Karla);
+    font-style: normal;
+}
+body{
+    overflow-x: hidden;
+    background: hsl(204, 43%, 93%);
+    font-size: 16px;
+}
+.card{
+    width: 50%;
+    margin: 11% auto;
+    border: none;
+    border-radius: 20px;
+    box-shadow: #e2dede 0px 8px 16px 0px;
+}
+.first-row{
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h3{
+    color: hsl(179, 62%, 43%);
+    font-weight: 500;
+    margin: 10px 0;
+}
+.sub-title{
+    color: hsl(71, 73%, 54%);
+    margin: 5px 0;
+    font-weight: 700;
+}
+.main-p{
+    color: hsl(218, 22%, 67%);
+    line-height: 25px;
+}
+.second-row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.first-column{
+    width: 50%;
+    background: hsl(179, 62%, 43%);
+    padding: 30px;
+    color: #fff;
+    border-bottom-left-radius: 10px;
+}
+h4{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.p1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.p2{
+    line-height: 30px;
+}
+span{
+    color: #e2dede;
+    font-size: 16px;
+    font-weight: 100;
+}
+.btn{
+    margin-top: 22px;
+    background: hsl(71, 73%, 54%);
+    color: #fff;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+.first-column:hover{
+    background: hsl(179, 71%, 43%);
+}
+.second-column{
+    color: #fff;
+    width: 50%;
+    background: hsl(179, 62%, 43%);
+    padding: 30px;
+    border-bottom-right-radius: 10px;
+}
+.p3{
+    line-height: 25px;
+}
+.second-column:hover{
+    background: hsl(179, 71%, 43%);
+}
+
+@media (max-width: 480px){
+    .card{
+        width: 80%;
+        margin: 80px auto;
+    }
+    .second-row{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .first-column{
+        width: 100%;
+        border-bottom-left-radius: 0;
+    }
+    .second-column{
+        width: 100%;
+        border-bottom-left-radius: 10px;
+    }
+}
