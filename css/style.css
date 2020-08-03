@@ -3,19 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face{
-    font-family: Karla;
-    src: url(https://fonts.google.com/specimen/Karla);
-    font-style: normal;
-}
 body{
     overflow-x: hidden;
     background: hsl(204, 43%, 93%);
     font-size: 16px;
+    font-family: 'Karla';
 }
 .card{
     width: 50%;
-    margin: 11% auto;
+    margin: 10% auto;
     border: none;
     border-radius: 20px;
     box-shadow: #e2dede 0px 8px 16px 0px;
